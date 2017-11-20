@@ -2008,6 +2008,7 @@ void moduleCommand(client *c);
 void securityWarningCommand(client *c);
 void xaddCommand(client *c);
 void xrangeCommand(client *c);
+void xrevrangeCommand(client *c);
 void xlenCommand(client *c);
 void xreadCommand(client *c);
 
